@@ -7,10 +7,9 @@ html {
 .btn {
   border-color: #fff;
   color: #fff;
-
 }
 
-btn:hover {
+.btn:hover {
   background-color: #fff;
   border-color: #fff;
   color: #ff9500;
@@ -32,4 +31,11 @@ i {
 a {
   text-decoration: none;
   color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .border-btm {
+    border-bottom: 0;
+  }
 }
