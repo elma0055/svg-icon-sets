@@ -1,6 +1,6 @@
 html {
   font-family: Overpass, sans-serif;
-  background-image: linear-gradient (to bottom, #ff9500, #ff5e3a)
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
   color: #fff;
 }
 
@@ -14,4 +14,9 @@ btn:hover {
   background-color: #fff;
   border-color: #fff;
   color: #ff9500;
+}
+
+.border-btm {
+  border-color: #ff9500;
+  border-width: 3px;
 }
